@@ -1,15 +1,92 @@
 <html>
-
  <head>
      <title>Emobilis Web Project</title>
+     <style>
+         button {
+             background-color: aqua;
+             color: white;
+             padding: 10px;
+             margin: 10px;
+             border-radius: 5px;
+         }
+         #btnsubmit {
+             background-color: blue;
+             color: white;
+             padding: 10px;
+             margin: 10px;
+             border-radius: 5px;
+         }
+         table {
+         }
+     </style>
  </head>
- <body>
-    <h1>Adelbert Matara</h1>
-    <h2>Adelbert Matara</h2>
-    <h3>Adelbert Matara</h3>
-    <h4>Adelbert Matara</h4>
-    <h5>Adelbert Matara</h5>
-    <h6>Adelbert Matara</h6>
+ <body style="background-color: black; color: white">
+ <p style="font-family: 'Calibri Light'; font-weight: Bold; color: purple">
+     A Business Analyst is responsible for gathering requirements from stakeholders, documenting them clearly,
+     and translating those needs into technical specifications for developers. They also play a role in
+     testing solutions, ensuring they meet business requirements, and facilitating communication between
+     non-technical business teams and technical teams to ensure everyone is aligned throughout a project.
+ </p>
+ <ol>
+     <li>Afc Leopards</li>
+     <li>Shabana FC</li>
+     <li>Gor Mahia</li>
+ </ol>
+ <ul>
+     <li>Afc Leopards</li>
+     <li>Shabana FC</li>
+     <li>Gor Mahia</li>
+ </ul>
+ <blockquote>
+     A Business Analyst is responsible for gathering requirements from stakeholders, documenting them clearly,
+     and translating those needs into technical specifications for developers. They also play a role in
+     testing solutions, ensuring they meet business requirements, and facilitating communication between
+     non-technical business teams and technical teams to ensure everyone is aligned throughout a project.
+ </blockquote>
+ <button>Click me</button>
+ <button id="btnsubmit">Submit Me</button>
+ <img src="assets/football%20image.jpg" width="200" height="200">
+ <table>
+     <thead>
+      <th>Position</th>
+      <th>Team Name</th>
+      <th>Points</th>
+     </thead>
+     <tbody>
+     <tr>
+         <td>1</td>
+         <td>AFC Leopards</td>
+         <td>20</td>
+     </tr>
+     <tr>
+        <td>2</td>
+         <td>SofaPaka</td>
+         <td>15</td>
+     </tr>
+     <tr>
+         <td>3</td>
+         <td>Shabana Fc</td>
+         <td>10</td>
+     </tr>
+     </tbody>
+ </table>
+ <form method="post">
+     <label>Team Name</label>
+     <input type="text" placeholder="Enter Team Name" name="Team Name"/>
+     <label>Season Points</label>
+     <input type="number" placeholder="Enter Points" name="Team_Points"/>
+     <label>Team Email</label>
+     <input type="email" placeholder="Enter team email" name="Team_email"/>
+     <label>Team picture</label>
+     <input type="file" name="team_picture"/>
+     <label>Home team Color</label>
+     <select name = "Team Color">
+         <option value="red">Red</option>
+         <option value="Blue">Blue</option>
+         <option value="yellow">Yellow</option>
+     </select>
+     <input type="submit" value="Submit Team">
+     <input type="reset" value="Reset form">
+ </form>
  </body>
-
 </html>
